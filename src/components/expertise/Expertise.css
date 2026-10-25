@@ -1,0 +1,22 @@
+.expertise .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.expertise .expertise-item {
+    padding: 28px;
+    border: 2px dashed var(--border-color);
+    border-radius: 16px;
+}
+
+.expertise .expertise-item h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+}
+
+.expertise .expertise-item p {
+    max-width: 46ch;
+    color: var(--faint-text-color);
+}

@@ -1,0 +1,13 @@
+.skills .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .skills-list li {
+    padding: 8px 18px;
+    border-radius: 999px;
+    background-color: var(--paper-color);
+    color: var(--paper-text-color);
+    font-weight: 600;
+}

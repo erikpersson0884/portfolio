@@ -1,0 +1,30 @@
+#root {
+    background-color: var(--background-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: clip;
+}
+
+.page {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding: 0 var(--page-padding);
+}
+
+.section {
+    padding-bottom: clamp(64px, 10vw, 104px);
+}
+
+.section-title {
+    margin-bottom: 28px;
+    font-size: 44px;
+    line-height: 1.1;
+    color: var(--primary-color);
+}
