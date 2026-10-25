@@ -23,9 +23,10 @@ export const useNotificationContext = () => {
 
 export const NotificationProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [notifications, setNotifications] = React.useState<Notification[]>([]);
-
+    const nextId = React.useRef(0);
+    
     const notify = (message: string, type: Notification["type"] = "info", color?: string) => {
-        const id = Date.now();
+        const id = nextId.current++;
 
         setNotifications((prev) => [...prev, { id, message, type, color }]);
 

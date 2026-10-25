@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Postcards from './Postcards';
+import Postcards from '@/components/postcards/Postcards';
 import { activities } from '@/data/portfolio';
 
 describe('Postcards', () => {
