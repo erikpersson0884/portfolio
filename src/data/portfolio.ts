@@ -11,10 +11,10 @@ export const profile: Profile = {
     name: 'Erik Persson',
     role: 'Software engineering student',
     photo: meImage,
-    // TODO: replace with your real contact details
-    email: 'your-email@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
+
+    email: 'Erikpersson0884@gmail.com',
+    github: 'https://github.com/erikpersson0884',
+    linkedin: 'https://www.linkedin.com/in/erikpersson0884',
 };
 
 export const expertise: ExpertiseArea[] = [
@@ -35,8 +35,8 @@ export const expertise: ExpertiseArea[] = [
 // TODO: add real links and one-line summaries for screenIT and vevIT
 export const projects: Project[] = [
     { title: 'Strecklista', year: 2025, summary: 'Shared storage checkout system for student committees.', href: '#', tone: 'sun' },
-    { title: 'screenIT', year: 2023, summary: '[one-line description]', href: '#', tone: 'mint' },
-    { title: 'vevIT', year: 2024, summary: '[one-line description]', href: '#', tone: 'rose' },
+    { title: 'screenIT2', year: 2023, summary: 'Digital evnt board used by the IT student division Chalmers.', href: '#', tone: 'mint' },
+    { title: 'vevIT', year: 2024, summary: 'A full-stack booking app, that lets students book vev in the Sandlådan.', href: '#', tone: 'rose' },
 ];
 
 // TODO: replace with the original photos and re-check each ratio (image width / height)
@@ -57,8 +57,8 @@ export const activities: Activity[] = [
         tilt: 2.5,
         text: 'Promoted inclusive practices and supported initiatives to improve student well-being and collaboration.',
     },
-    { name: 'Fikit', image: fikitImage, ratio: 2.0, width: 340, tilt: -2, text: '[one-line description]' },
-    { name: 'Smurf', image: smurfImage, ratio: 0.69, width: 200, tilt: 3.5, text: '[one-line description]' },
+    { name: 'Fikit', image: fikitImage, ratio: 2.0, width: 340, tilt: -2, text: 'Chairman of the IT divisions fika association, where we served swedish fika (coffee and baked treats) to students and kept the mood up with a Taylor Swift playlist.' },
+    { name: 'Smurf', image: smurfImage, ratio: 0.69, width: 200, tilt: 3.5, text: 'Represented the student division as its mascot, the Smurf, welcoming new students during Mottagningen and Cortègen.' },
 ];
 
 export const skills: string[] = [
