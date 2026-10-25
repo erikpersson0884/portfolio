@@ -4,6 +4,8 @@ Personal portfolio of Erik Persson, software engineering student. Scrapbook styl
 
 [![Last Commit][last-commit-shield]][last-commit-url]
 [![Build Status][build-shield]][build-url]
+[![Test Coverage][coverage-shield]][coverage-url]
+[![Repo Size][repo-size-shield]][repo-size-url]
 [![Author][author-shield]][author-url]
 
 # Index
@@ -94,13 +96,30 @@ The app is then available on http://localhost:8080. The workflow in `.github/wor
 
 - [Erik Persson](https://erik-persson.com)
 
-<!-- Repo info shields -->
+<!-- --- ---   --- --- --->
+<!-- Repo info shields  -->
+<!-- --- ---   --- --- --->
+
+<!-- Last commit shield -->
 [last-commit-shield]: https://img.shields.io/github/last-commit/erikpersson0884/portfolio/main?style=for-the-badge&cacheSeconds=30
 [last-commit-url]: https://github.com/erikpersson0884/portfolio/commits/main
+
+<!-- Author shield -->
 [author-shield]: https://img.shields.io/badge/Author-Erik%20Persson-blue?style=for-the-badge
 [author-url]: https://erik-persson.com
+
+<!-- Build status shield -->
 [build-shield]: https://img.shields.io/github/actions/workflow/status/erikpersson0884/portfolio/build-and-push.yml?branch=main&style=for-the-badge
 [build-url]: https://github.com/erikpersson0884/portfolio/actions
+
+<!-- Repo size shield -->
+[repo-size-shield]: https://img.shields.io/github/repo-size/erikpersson0884/strecklista?style=for-the-badge&cacheSeconds=60
+[repo-size-url]: https://github.com/erikpersson0884/strecklista
+
+<!-- Test coverage shield -->
+[coverage-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/erikpersson0884/strecklista/coverage/.github/coverage.json&style=for-the-badge&v=2
+[coverage-url]: https://github.com/erikpersson0884/strecklista/actions
+
 
 <!-- Tech stack shields -->
 [react-shield]: https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge
