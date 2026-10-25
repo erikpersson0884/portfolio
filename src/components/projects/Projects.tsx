@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import './Projects.css';
 import { projects } from '@/data/portfolio';
-
+import { Project} from '@/types/portfolio';
 
 const Projects: FC = () => {
     return (
@@ -9,7 +9,7 @@ const Projects: FC = () => {
             <h2 id="projects-title" className="section-title hand">Projects</h2>
 
             <ul className="projects-list">
-                {projects.map((project) => (
+                {projects.map((project: Project) => (
                     <li key={project.title}>
                         <a className={`project project-${project.tone}`} href={project.href}>
                             <span className="project-year">{project.year}</span>

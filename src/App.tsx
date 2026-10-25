@@ -5,11 +5,12 @@ import Header from '@/layouts/header/Header';
 import Footer from '@/layouts/footer/Footer';
 
 import HomePage from '@/pages/homePage/HomePage';
-
+import ProjectPage from '@/pages/projectpage/Projectpage';
 
 const App: React.FC = () => {
     const pages = [
         { url: '/', component: <HomePage /> },
+        { url: '/projects/:slug', component: <ProjectPage /> }
     ];
 
     return (

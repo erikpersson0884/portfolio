@@ -33,3 +33,28 @@ export interface Activity {
     tilt: number;
     text: string;
 }
+
+
+export interface CaseStudySection {
+    title: string;
+    text?: string;
+    items?: string[];
+    /** A big number with a label, shown above the list. */
+    highlight?: { value: string; label: string };
+    /** An embedded prototype, e.g. a Figma embed link. */
+    embed?: { title: string; url: string };
+}
+
+export interface CaseStudy {
+    /** Used in the URL: /projects/<slug>. */
+    slug: string;
+    title: string;
+    subtitle: string;
+    year: number;
+    tone: ProjectTone;
+    intro: string;
+    team: string[];
+    role: string[];
+    tech: string[];
+    sections: CaseStudySection[];
+}
