@@ -5,7 +5,7 @@ import Header from '@/layouts/header/Header';
 import Footer from '@/layouts/footer/Footer';
 
 import HomePage from '@/pages/homePage/HomePage';
-import ProjectPage from '@/pages/projectpage/Projectpage';
+import ProjectPage from '@/pages/projectPage/ProjectPage';
 
 const App: React.FC = () => {
     const pages = [
