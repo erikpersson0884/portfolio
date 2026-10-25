@@ -113,12 +113,12 @@ The app is then available on http://localhost:8080. The workflow in `.github/wor
 [build-url]: https://github.com/erikpersson0884/portfolio/actions
 
 <!-- Repo size shield -->
-[repo-size-shield]: https://img.shields.io/github/repo-size/erikpersson0884/strecklista?style=for-the-badge&cacheSeconds=60
-[repo-size-url]: https://github.com/erikpersson0884/strecklista
+[repo-size-shield]: https://img.shields.io/github/repo-size/erikpersson0884/portfolio?style=for-the-badge&cacheSeconds=60
+[repo-size-url]: https://github.com/erikpersson0884/portfolio
 
 <!-- Test coverage shield -->
-[coverage-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/erikpersson0884/strecklista/coverage/.github/coverage.json&style=for-the-badge&v=2
-[coverage-url]: https://github.com/erikpersson0884/strecklista/actions
+[coverage-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/erikpersson0884/portfolio/coverage/.github/coverage.json&style=for-the-badge&v=2
+[coverage-url]: https://github.com/erikpersson0884/portfolio/actions
 
 
 <!-- Tech stack shields -->
