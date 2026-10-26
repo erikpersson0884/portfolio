@@ -89,7 +89,7 @@ export const caseStudies: Record<string, CaseStudy> = {
         slug: 'screenit',
         title: 'ScreenIT',
         subtitle: 'A digital event board',
-        year: 2024,
+        year: 2023,
         tone: 'mint',
         intro: 'ScreenIT is a digital announcement board for event posters. It gives event coordinators a simple way to upload announcements and gives student an easy way to discover what is happening through a rotating carousel.',
         team: ['Erik Persson'],

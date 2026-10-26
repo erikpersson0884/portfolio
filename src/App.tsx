@@ -7,7 +7,7 @@ import Footer from '@/layouts/footer/Footer';
 
 import HomePage from '@/pages/homePage/HomePage';
 import StrecklistaPage from '@/pages/strecklistaPage/StrecklistaPage';
-
+import ProjectPage from '@/pages/projectPage/ProjectPage';
 
 const App: React.FC = () => {
     const { pathname, hash } = useLocation();
@@ -21,6 +21,7 @@ const App: React.FC = () => {
     const pages = [
         { url: '/', component: <HomePage /> },
         { url: '/projects/strecklista', component: <StrecklistaPage /> },
+        { url: '/projects/:slug', component: <ProjectPage /> }
     ];
 
     return (
