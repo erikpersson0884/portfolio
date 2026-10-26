@@ -12,8 +12,8 @@ interface Page {
 
 const Header: FC = () => {
     const pages: Page[] = [
-        { url: '#projects', linkText: 'Projects', visibleCriteria: true },
-        { url: '#activities', linkText: 'Activities', visibleCriteria: true },
+        { url: '/#projects', linkText: 'Projects', visibleCriteria: true },
+        { url: '/#activities', linkText: 'Activities', visibleCriteria: true },
         { url: '#contact', linkText: 'Contact', visibleCriteria: true },
     ];
 
@@ -30,9 +30,15 @@ const Header: FC = () => {
                 {pages
                     .filter((page) => page.visibleCriteria)
                     .map((page) => (
-                        <a href={page.url} key={page.url} className={page.className || ''}>
-                            {page.linkText}
-                        </a>
+                        page.url.startsWith('#') ? (
+                            <a href={page.url} key={page.url} className={page.className || ''}>
+                                {page.linkText}
+                            </a>
+                        ) : (
+                            <Link to={page.url} key={page.url} className={page.className || ''}>
+                                {page.linkText}
+                            </Link>
+                        )
                     ))}
             </nav>
         </header>

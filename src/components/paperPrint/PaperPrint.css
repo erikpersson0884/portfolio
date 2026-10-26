@@ -1,0 +1,22 @@
+.paper-print {
+    position: relative;
+    width: min(100%, 240px);
+    padding: 16px 16px 6px;
+    background-color: var(--paper-color);
+    color: var(--paper-text-color);
+    transform: rotate(var(--tilt));
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+}
+
+.paper-print img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.paper-print figcaption {
+    padding: 6px 0;
+    font-size: 26px;
+    text-align: center;
+}

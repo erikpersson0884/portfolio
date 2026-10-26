@@ -1,0 +1,26 @@
+.phone-frame {
+    width: min(100%, var(--w));
+    transform: rotate(var(--tilt));
+}
+
+.phone-frame .phone-screen {
+    aspect-ratio: 1 / 2;
+    overflow: hidden;
+    border: 7px solid #0b0b0d;
+    border-radius: 30px;
+    background-color: #1e1f22;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+}
+
+.phone-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phone-frame figcaption {
+    margin-top: 12px;
+    font-size: 28px;
+    text-align: center;
+}
