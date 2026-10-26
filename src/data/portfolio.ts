@@ -32,10 +32,9 @@ export const expertise: ExpertiseArea[] = [
     },
 ];
 
-// TODO: add real links and one-line summaries for screenIT and vevIT
 export const projects: Project[] = [
     { title: 'Strecklista', year: 2025, summary: 'Shared storage checkout system for student committees.', href: '/projects/strecklista', tone: 'sun' },
-    { title: 'screenIT2', year: 2023, summary: 'Digital evnt board used by the IT student division Chalmers.', href: '#', tone: 'mint' },
+    { title: 'ScreenIT', year: 2024, summary: 'Digital event board for discovering posters and upcoming events.', href: '/projects/screenit', tone: 'mint' },
     { title: 'vevIT', year: 2024, summary: 'A full-stack booking app, that lets students book vev in the Sandlådan.', href: '#', tone: 'rose' },
 ];
 

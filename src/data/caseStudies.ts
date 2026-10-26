@@ -85,4 +85,80 @@ export const caseStudies: Record<string, CaseStudy> = {
             },
         ],
     },
+    screenit: {
+        slug: 'screenit',
+        title: 'ScreenIT',
+        subtitle: 'A digital event board',
+        year: 2024,
+        tone: 'mint',
+        intro: 'ScreenIT is a digital announcement board for event posters. It gives event coordinators a simple way to upload announcements and gives student an easy way to discover what is happening through a rotating carousel.',
+        team: ['Erik Persson'],
+        role: [
+            'Interviewed event coordinators to understand their communication needs',
+            'Designed and developed the upload and gallery experience',
+            'Built the application with React, Vite, CSS, Typescript, Node, and Express',
+            'Installed and tested the board on shared lunchroom screens',
+        ],
+        tech: ['React', 'CSS', 'Typescript', 'Node.js', 'Express', 'Raspberry Pi 5'],
+        sections: [
+            {
+                title: 'The problem',
+                text: 'The project started taking shape in spring 2023, when it became clear that existing communication channels were not getting event information in front of people. Physical notice boards were cluttered, slack news feed got flooded quickly, and event coordinators struggled to reach their audience.',
+                items: [
+                    'Students regularly missed events',
+                    'Physical boards made it difficult to notice relevant posters',
+                    'Digital feeds got flooded easily and important information was lost',
+                    'Low visibility led to lower event attendance and engagement',
+                ],
+            },
+            {
+                title: 'User research',
+                text: 'I interviewed event coordinators to understand what a better solution would need to do. Most wanted a quick way to upload posters and preferred for the display to update automatically, without requiring someone to manage the screen manually.',
+                items: [
+                    'Uploading a poster needed to be quick and uncomplicated',
+                    'The display should rotate automatically',
+                    'The content should stay current without constant maintenance',
+                ],
+            },
+            {
+                title: 'MVP',
+                text: 'The first version focused on the two core experiences needed to make the idea useful: an upload page for coordinators and a gallery page for attendees.',
+                items: [
+                    'Upload page for sharing event posters',
+                    'Gallery page for browsing upcoming events',
+                    'Rotating carousel for automatic presentation on a shared screen',
+                ],
+            },
+            {
+                title: 'From prototype to real-world testing',
+                text: 'Once the MVP was ready, ScreenIT was installed on a old tv in the lunchroom. This made it possible to observe the board in a real environment and gather feedback from the people it was intended to serve. Attendees quickly started discovering events they would otherwise have missed.',
+                items: [
+                    'The first screen made event information visible during everyday routines',
+                    'Positive feedback showed that the board improved event discovery',
+                ],
+            },
+            {
+                title: 'Beyond the MVP',
+                text: 'Additional features made ScreenIT easier to operate as the number of users and posters grew.',
+                items: [
+                    'Admin panel for managing user accounts and permissions',
+                    'Head admin tools for controlling user privileges',
+                    'Event dashboard for tracking upcoming posters and deadlines',
+                    'Automatic deletion of outdated posters to keep the board current',
+                ],
+            },
+            {
+                title: 'Outcome',
+                text: 'ScreenIT gave the community a central platform for event promotion. It surfaced information that might otherwise have been missed, increased attendance and engagement, and strengthened communication around events. The response was immediately positive, with many people saying they had found events they would not have known about otherwise.',
+            },
+            {
+                title: 'Reflection and next steps',
+                text: 'This project reinforced the value of user-centered design and rapid iteration. Starting with coordinator interviews kept the MVP focused on a real communication problem, while installing it on a shared screen made the feedback concrete and actionable.',
+                items: [
+                    'Integrate ScreenIT with the IT division website so poster updates can be automated',
+                    'Explore analytics for tracking engagement trends',
+                ],
+            },
+        ],
+    },
 };
