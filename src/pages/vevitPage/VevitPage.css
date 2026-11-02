@@ -1,0 +1,82 @@
+/* The page accent can be changed by the visitor (see VersionExplorer). */
+.vevit-page { --accent: #4dc3e6; }
+
+.vevit-page .vevit-back { display: inline-block; margin-bottom: 8px; color: var(--faint-text-color); }
+
+/* Hero */
+.vevit-hero { padding: 56px 0 72px; }
+.vevit-hero .vevit-eyebrow { font-size: 36px; color: var(--accent); }
+.vevit-hero .vevit-title { margin: 6px 0 8px; font-size: clamp(64px, 13vw, 132px); line-height: 0.92; letter-spacing: -0.045em; font-weight: 800; }
+.vevit-hero .vevit-subtitle { margin-bottom: 24px; font-size: 38px; color: var(--faint-text-color); }
+.vevit-hero .vevit-description { max-width: 600px; margin-bottom: 28px; font-size: 19px; line-height: 1.6; }
+
+.vevit-meta { display: grid; grid-template-columns: 90px 1fr; gap: 8px 16px; max-width: 640px; margin-bottom: 24px; }
+.vevit-meta dt { color: var(--faint-text-color); }
+
+.vevit-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.vevit-chips li {
+    padding: 6px 14px;
+    border-radius: 999px;
+    background-color: var(--paper-color);
+    color: var(--paper-text-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Story, reflection */
+.vevit-why .sticky-note,
+.vevit-reflection .sticky-note { max-width: 620px; }
+.vevit-reflection { display: flex; justify-content: center; }
+
+/* Release notes */
+.vevit-notes { max-width: 680px; margin-left: 10px; padding-left: 28px; border-left: 3px solid var(--border-color); }
+.vevit-notes li { position: relative; margin-bottom: 28px; }
+.vevit-notes li::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -37px;
+    width: 14px;
+    height: 14px;
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+.vevit-notes h3 { font-size: 18px; }
+.vevit-notes h3 .hand { margin-right: 10px; font-size: 28px; color: var(--accent); }
+.vevit-notes p { margin-top: 2px; color: var(--faint-text-color); line-height: 1.6; }
+
+/* Skills */
+.vevit-skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px 32px; max-width: 640px; }
+.vevit-skills li::before { content: '•'; margin-right: 10px; color: var(--accent); }
+
+/* Final screens */
+.vevit-screens { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 40px 36px; }
+
+/* Outcome */
+.vevit-outcome { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; }
+.vevit-badge {
+    flex: 0 1 280px;
+    padding: 28px 32px;
+    border-radius: 14px;
+    background-color: var(--accent);
+    color: #171a21;
+    transform: rotate(-2deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
+}
+.vevit-badge-value { font-size: 96px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; }
+.vevit-badge-label { font-size: 20px; font-weight: 600; }
+.vevit-outcome-points { flex: 1 1 340px; padding-left: 20px; list-style: disc; font-size: 19px; line-height: 1.7; }
+
+.vevit-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.vevit-button {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    background-color: var(--accent);
+    color: #171a21;
+    font-weight: 700;
+}
+.vevit-button:hover { filter: brightness(1.1); }
+.vevit-button-outline { background: transparent; color: var(--accent); }

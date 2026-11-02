@@ -1,6 +1,8 @@
 scannerwork/
 coverage/
 
+.env**
+
 # Logs
 logs
 *.log
@@ -10,6 +12,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# React
 node_modules
 dist
 dist-ssr
