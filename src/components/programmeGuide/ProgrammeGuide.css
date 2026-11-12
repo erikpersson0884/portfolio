@@ -1,0 +1,45 @@
+.programme-guide {
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background-color: #0f1218;
+}
+
+.programme-guide .guide-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: #171c25;
+    color: var(--faint-text-color);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.programme-guide .guide-now { color: var(--primary-color); }
+
+.programme-guide table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.programme-guide tr { border-top: 1px solid var(--border-color); }
+
+.programme-guide th {
+    width: 84px;
+    padding: 20px 0;
+    background-color: var(--primary-color);
+    color: var(--paper-text-color);
+    font-weight: 800;
+    text-align: center;
+}
+
+.programme-guide td { padding: 20px 24px; }
+.programme-guide .guide-title { font-size: 20px; font-weight: 700; }
+.programme-guide .guide-text { color: var(--faint-text-color); }
+
+@media (max-width: 640px) {
+    .programme-guide tr { display: flex; flex-wrap: wrap; }
+    .programme-guide th { width: 100%; padding: 8px 0; }
+    .programme-guide td { padding: 12px 20px; }
+}

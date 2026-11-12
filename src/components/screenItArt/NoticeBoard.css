@@ -1,0 +1,49 @@
+.art-figure {
+    flex: 1 1 280px;
+    max-width: 380px;
+}
+
+.art-figure figcaption {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.art-tilt-left { transform: rotate(-1.5deg); }
+.art-tilt-right { transform: rotate(1.5deg); }
+
+.notice-board {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    border: 8px solid #5c4630;
+    border-radius: 6px;
+    background-color: #9c7a54;
+}
+
+.notice-board .notice-poster {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+.notice-board .notice-pin {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #c0392b;
+}
+
+.notice-board .notice-line {
+    display: block;
+    height: 7px;
+    margin: 22px 10px 0;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.notice-board .notice-line-short {
+    width: 60%;
+    margin-top: 8px;
+}

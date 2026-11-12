@@ -9,6 +9,7 @@ import HomePage from '@/pages/homePage/HomePage';
 import StrecklistaPage from '@/pages/strecklistaPage/StrecklistaPage';
 import ProjectPage from '@/pages/projectPage/ProjectPage';
 import VevitPage from '@/pages/vevitPage/VevitPage';
+import ScreenItPage from '@/pages/screenItPage/ScreenItPage';
 
 const App: React.FC = () => {
     const { pathname, hash } = useLocation();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         { url: '/', component: <HomePage /> },
         { url: '/projects/strecklista', component: <StrecklistaPage /> },
         { url: '/projects/vevit', component: <VevitPage /> },
+        { url: '/projects/screenit', component: <ScreenItPage /> },
         { url: '/projects/:slug', component: <ProjectPage /> }
     ];
 

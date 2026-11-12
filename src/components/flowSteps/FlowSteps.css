@@ -1,0 +1,43 @@
+.flow-steps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 16px 72px;
+}
+
+.flow-steps .flow-step {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 22px;
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    background-color: var(--card-color);
+    text-align: center;
+}
+
+.flow-steps .flow-step span {
+    font-size: 14px;
+    color: var(--faint-text-color);
+}
+
+.flow-steps .flow-step-highlight {
+    background-color: var(--primary-color);
+    color: var(--paper-text-color);
+}
+
+.flow-steps .flow-step-highlight span { color: var(--paper-text-color); }
+
+/* The arrow sits outside the box, between two steps */
+.flow-steps .flow-step:not(:last-child)::after {
+    content: '→';
+    content: '→' / '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 16px);
+    transform: translateY(-52%);
+    font-family: var(--font-hand);
+    font-size: 44px;
+    line-height: 1;
+    color: var(--primary-color);
+}

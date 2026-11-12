@@ -99,7 +99,7 @@ export const caseStudies: Record<string, CaseStudy> = {
             'Built the application with React, Vite, CSS, Typescript, Node, and Express',
             'Installed and tested the board on shared lunchroom screens',
         ],
-        tech: ['React', 'CSS', 'Typescript', 'Node.js', 'Express', 'Raspberry Pi 5'],
+        tech: ['React', 'CSS', 'Typescript', 'Node.js', 'Express', 'Raspberry Pi '],
         sections: [
             {
                 title: 'The problem',
